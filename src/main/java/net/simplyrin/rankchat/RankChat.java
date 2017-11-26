@@ -23,6 +23,7 @@ public class RankChat extends JavaPlugin implements Listener {
 	public void onEnable() {
 		plugin = this;
 		plugin.getServer().getPluginManager().registerEvents(this, this);
+		plugin.loadConfigFile();
 	}
 
 	private void loadConfigFile() {
