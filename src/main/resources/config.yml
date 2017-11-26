@@ -1,0 +1,10 @@
+Ranks:
+  Default:
+    Permission: "rankchat.default"
+    Format: "&6%prefix%player%suffix &6>> &r%message"
+  Vip:
+    Permission: "rankchat.vip"
+    Format: "&6%prefix%player%suffix &a>> &r%message"
+  Mvp:
+    Permission: "rankchat.mvp"
+    Format: "&6%prefix&player%suffix &b>> &r%message"
