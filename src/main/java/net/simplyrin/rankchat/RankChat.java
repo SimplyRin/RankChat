@@ -36,7 +36,7 @@ public class RankChat extends JavaPlugin implements Listener {
 	public void onChat(AsyncPlayerChatEvent event) {
 		Player player = event.getPlayer();
 
-		for(String msg : list.values()) {
+		for(String msg : list.keySet()) {
 			if(player.hasPermission(msg)) {
 				event.setCancelled(true);
 
